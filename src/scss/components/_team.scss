@@ -1,0 +1,47 @@
+.team {
+  position: relative;
+  padding: 60px 0;
+  background-color: var(--eastbay--color);
+
+  &__figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__title {
+    color: var(--light-color);
+  }
+
+  &__list {
+    position: relative;
+    z-index: 5;
+    gap: 60px 20px;
+  }
+
+  &__item {
+    grid-column: 4 span;
+  }
+
+  &__img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--light-color);
+  }
+
+  &__descr {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--light-color);
+  }
+}
